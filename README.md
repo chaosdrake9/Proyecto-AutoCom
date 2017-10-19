@@ -1,11 +1,11 @@
 Este repositorio contiene el proyecto de la materia de Nuevas Técnicas de Programación
 Integrantes:
-    Andrés Lara
-    Henry Trujillo
+- Andrés Lara
+- Henry Trujillo
 
 El proyecto consiste en la creación de una aplicación android para compartir auto.
 
-[Planificación] (https://drive.google.com/open?id=1MhvLfqhMAY31Juw6owaRdDubXKWF6ekfnddxBr3ZzMg) del proyecto 
+[Planificación](https://drive.google.com/open?id=1MhvLfqhMAY31Juw6owaRdDubXKWF6ekfnddxBr3ZzMg) del proyecto.
 
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
