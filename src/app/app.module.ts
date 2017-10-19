@@ -6,6 +6,20 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+//added
+import { Firebase } from '@ionic-native/firebase';
+
+//firebase constante
+
+  export const firebaseconfig = {
+    apiKey: "AIzaSyDSI8-IatRSTuVgiAVV3-sSHSfi8FWN6xM",
+    authDomain: "autocom-16acd.firebaseapp.com",
+    databaseURL: "https://autocom-16acd.firebaseio.com",
+    projectId: "autocom-16acd",
+    storageBucket: "autocom-16acd.appspot.com",
+    messagingSenderId: "45674153278"
+  };
+
 
 @NgModule({
   declarations: [

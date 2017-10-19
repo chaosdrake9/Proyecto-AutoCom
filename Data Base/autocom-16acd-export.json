@@ -1,0 +1,65 @@
+{
+  "Perfiles" : {
+    "per1" : {
+      "Clave" : "asdf1234qwe456",
+      "FechaCreacion" : "2017/10/10",
+      "Nombre" : "Usuario 1",
+      "Vehiculos" : {
+        "veh1" : true
+      },
+      "Viajes" : {
+        "viaje1" : true
+      },
+      "email" : "emailejemplo@emal.com"
+    },
+    "per2" : {
+      "Nombre" : "Usuario 2",
+      "Reservas" : {
+        "res1" : "True"
+      }
+    }
+  },
+  "Reservas" : {
+    "res1" : {
+      "lugares" : 1,
+      "pEspera" : "Quito, Quicentro Norte"
+    }
+  },
+  "Reviews" : {
+    "rev1" : {
+      "calificacion" : "Bueno",
+      "comentario" : "comentario 1",
+      "fecha" : "dd-mm-aaaa"
+    }
+  },
+  "Sincronizaciones" : {
+    "sin1" : {
+      "fecha" : "dd-mm-aaaa",
+      "hora" : "hh-mm"
+    }
+  },
+  "Vehiculos" : {
+    "veh1" : {
+      "color" : "Color1",
+      "marca" : "Marca1",
+      "modelo" : "Modelo1",
+      "placa" : "AAA-0000"
+    }
+  },
+  "Viajes" : {
+    "viaje1" : {
+      "Reservas" : {
+        "res1" : true
+      },
+      "Reviews" : {
+        "rev1" : true
+      },
+      "costo" : 0,
+      "fecha" : "15-10-2017",
+      "hora" : 10,
+      "lugaresDisponibles" : 2,
+      "pLlegada" : "Latacunga",
+      "pPartida" : "Quito"
+    }
+  }
+}
