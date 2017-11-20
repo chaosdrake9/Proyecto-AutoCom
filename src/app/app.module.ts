@@ -7,7 +7,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 //added
-import { Firebase } from '@ionic-native/firebase';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule, AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
 //firebase constante
 
@@ -28,7 +30,11 @@ import { Firebase } from '@ionic-native/firebase';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+	//firebase
+	AngularFireModule.initializeApp(firebaseconfig),
+  AngularFireDatabaseModule,
+  AngularFireAuthModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
