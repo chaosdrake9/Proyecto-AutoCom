@@ -11,6 +11,10 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule, AngularFireDatabase } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
+import { ViajesService } from './../services/viajes.service';
+import { PerfilesService } from './../services/perfiles.service';
+import { SincronizacionesService } from './../services/sincronizaciones.service';
+import { VehiculosService } from './../services/vehiculos.service';
 //firebase constante
 
   export const firebaseconfig = {
@@ -44,7 +48,11 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+	ViajesService,
+    PerfilesService,
+    SincronizacionesService,
+    VehiculosService
   ]
 })
 export class AppModule {}
