@@ -15,6 +15,7 @@ import { ViajesService } from './../services/viajes.service';
 import { PerfilesService } from './../services/perfiles.service';
 import { SincronizacionesService } from './../services/sincronizaciones.service';
 import { VehiculosService } from './../services/vehiculos.service';
+import {NuevoviajePageModule} from "../pages/nuevoviaje/nuevoviaje.module";
 //firebase constante
 
   export const firebaseconfig = {
@@ -38,7 +39,8 @@ import { VehiculosService } from './../services/vehiculos.service';
 	//firebase
 	AngularFireModule.initializeApp(firebaseconfig),
   AngularFireDatabaseModule,
-  AngularFireAuthModule
+  AngularFireAuthModule,
+  NuevoviajePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
