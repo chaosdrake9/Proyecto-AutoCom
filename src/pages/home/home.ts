@@ -14,5 +14,9 @@ export class HomePage {
   constructor(public navCtrl: NavController, afDB: AngularFireDatabase) {
     this.items = afDB.list('perfiles').valueChanges();
   }
+  //mapa
+  public gotoMap(){
+    this.navCtrl.push('MapaPage');
+  }
 
 }

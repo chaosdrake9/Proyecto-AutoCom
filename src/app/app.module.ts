@@ -16,6 +16,9 @@ import { PerfilesService } from './../services/perfiles.service';
 import { SincronizacionesService } from './../services/sincronizaciones.service';
 import { VehiculosService } from './../services/vehiculos.service';
 import {NuevoviajePageModule} from "../pages/nuevoviaje/nuevoviaje.module";
+//mapa
+import { Geolocation } from '@ionic-native/geolocation';
+
 //firebase constante
 
   export const firebaseconfig = {
@@ -54,7 +57,8 @@ import {NuevoviajePageModule} from "../pages/nuevoviaje/nuevoviaje.module";
 	ViajesService,
     PerfilesService,
     SincronizacionesService,
-    VehiculosService
+    VehiculosService,
+    Geolocation
   ]
 })
 export class AppModule {}
