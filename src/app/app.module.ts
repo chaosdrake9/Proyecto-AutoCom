@@ -18,6 +18,7 @@ import { VehiculosService } from './../services/vehiculos.service';
 import {NuevoviajePageModule} from "../pages/nuevoviaje/nuevoviaje.module";
 //mapa
 import { Geolocation } from '@ionic-native/geolocation';
+import { AuthProvider } from '../providers/auth/auth';
 
 //firebase constante
 
@@ -58,7 +59,8 @@ import { Geolocation } from '@ionic-native/geolocation';
     PerfilesService,
     SincronizacionesService,
     VehiculosService,
-    Geolocation
+    Geolocation,
+    AuthProvider
   ]
 })
 export class AppModule {}

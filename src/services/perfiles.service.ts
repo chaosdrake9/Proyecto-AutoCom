@@ -18,6 +18,10 @@ export class PerfilesService{
         return this.db.list('Perfiles');
     }
 
+    agregarPerfil(perfil: Perfil){
+        return this.db.list<Perfil>('Perfiles').push(perfil);
+    }
+
     public createPerfil(perfil) {
         this.db.database.ref('Perfiles/'+perfil.id).set(perfil);
     }

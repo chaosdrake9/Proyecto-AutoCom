@@ -18,5 +18,13 @@ export class HomePage {
   public gotoMap(){
     this.navCtrl.push('MapaPage');
   }
+  //perfil
+  public gotoPerfil(){
+    this.navCtrl.push('PerfilPage');
+  }
+  //login
+  public gotoLogin(){
+    this.navCtrl.push('LoginPage');
+  }
 
 }

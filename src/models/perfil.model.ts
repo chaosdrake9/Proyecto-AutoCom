@@ -1,7 +1,9 @@
 export interface Perfil {
     id?: string;
-    clave: string;
-    fechacreacion: string;
     nombre: string;
-	email: string;
+    apellido: string
+	mail: string;
+    clave: string;
+    tipo: string;
+    
 }

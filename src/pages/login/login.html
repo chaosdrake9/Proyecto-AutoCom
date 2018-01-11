@@ -1,0 +1,39 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  
+
+</ion-header>
+
+
+<ion-content class="vista" padding>
+  <div class="center">
+
+    <h1 class="titulo"><ion-icon name="person"></ion-icon>  Bienvenido</h1>
+    <br>
+    <h4 class="h4">Te estábamos esperando</h4>
+    <p class="p">Este es el mejor sistema de auto compartido, crea tu
+        cuenta y disfruta compartiendo tu viaje de destino con
+        tus amigos.</p>
+       
+    <h4 class="h4">Regístrate Ahora:</h4>
+  </div>
+
+    <br>
+    <div class="center">
+        <button id="button" class="face" autocapitalize="off" ion-button><ion-icon class="i" name="logo-facebook"></ion-icon>Continuar con Facebook</button>
+    </div>
+    <br>
+    <div class="center">
+        <button id="button" (click)="gotoPerfilNuevo()" class="crear" ion-button>CREAR CUENTA</button>
+    </div>
+    <br><br>
+    <div class="center">
+      <ion-label (click)="gotoCredenciales()">¿Ya estás registrado?</ion-label>
+    </div>
+
+</ion-content>

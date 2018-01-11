@@ -1,0 +1,63 @@
+<!--
+  Generated template for the PerfilPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+</ion-header>
+
+
+<ion-content class="vista" padding>
+  <div class="center">
+    
+        <h1 class="titulo"><ion-icon name="person"></ion-icon>  Bienvenido</h1>
+        <br>
+        <h4 class="h4">Completa tus datos</h4>
+      </div>
+      <br>
+      <div class="center">
+    <ion-list >
+          <ion-item>
+            <ion-label><ion-icon name="person"></ion-icon></ion-label>
+            <ion-input type="text" [(ngModel)]="perfil.nombre" placeholder="Nombre"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label><ion-icon name="person"></ion-icon></ion-label>
+              <ion-input type="text" [(ngModel)]="perfil.apellido" placeholder="Apellido"></ion-input>
+            </ion-item>
+          <ion-item>
+              <ion-label><ion-icon name="mail"></ion-icon></ion-label>
+            <ion-input type="email" [(ngModel)]="perfil.mail" placeholder="Correo electrónico"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label><ion-icon name="lock"></ion-icon></ion-label>
+            <ion-input type="password" [(ngModel)]="perfil.clave" placeholder="Añadir contraseña"></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label><ion-icon name="lock"></ion-icon></ion-label>
+            <ion-input type="password" placeholder="Repetir contraseña"></ion-input>
+          </ion-item>
+              <ion-label>¿Cómo quieres participar?:</ion-label>
+        </ion-list>
+      </div>
+        <ion-list radio-group class="r" [(ngModel)]="perfil.tipo">
+          <ion-item>
+            <ion-label>Conductor</ion-label>
+            <ion-radio item-left checked="true" value="conductor"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Acompañante</ion-label>
+            <ion-radio item-left value="acompa"></ion-radio>
+          </ion-item>
+        </ion-list>
+        <br>
+          <div class="center">
+              <button id="button" (click)="addPerfil(perfil)" ion-button>CONTINUAR</button>
+          </div>
+          <br>
+            <div class="center">
+                <button id="cancelar" ion-button small>CANCELAR</button>
+            </div>
+</ion-content>

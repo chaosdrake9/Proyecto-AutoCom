@@ -1,0 +1,56 @@
+page-login {
+    .botonCentro{
+        align-items: center !important;
+    }
+    .center{
+        text-align:center;
+   } 
+   .vista{
+    background-image: url('../../img/fondo-autocom2.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    
+    }
+
+    .crear{
+        background-color: #C8FF00; 
+        padding: 2px 4px;
+        font: 13px;
+        text-decoration: none;
+        color: #000;
+        width:210px;
+    }
+    .face{
+        background-color: #14CCC5; 
+        padding: 2px 4px;
+        font: 13px;
+        text-decoration: none;
+        color: #ffffff;
+        width:210px;
+        font-size: 11px;
+    }
+    .titulo{
+        font: 80px;
+        font-size: 35px;
+        text-decoration: none;
+        color: #14CCC5
+    }
+    .h4{
+        text-decoration: none;
+        color: #797E7E;
+        font-size: 20px;
+    }
+    .p{
+        padding: 10px;
+        font-size: 11px;
+    }
+    .button.customBtn{
+        width:150px;
+    }
+    .i{
+        padding: 7px;
+        font-size: 30px;
+    }
+
+}
